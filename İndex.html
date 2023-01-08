@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <img class="background-img" src="imgs/black_gemoteric.jpg"></img>
+
+    <div class="user-secret-div">
+        <span class="secret-eye1 secret-eyes"></span>
+        <span class="secret-eye2 secret-eyes"></span>
+        <i class="fa-sharp fa-solid fa-user-secret"></i>
+
+    </div>
+
+
+
+    <div id="login-div" class="mx-auto  ">
+
+
+        <form action="#" name="login-form" method="post">
+
+            <div>
+                <label id="email-label" for="email-input">E-mail </label>
+                <i class="fa-solid fa-envelope input-icon"></i>
+                <br>
+                <input class="input email-input" id="email-input" name="email-input" type="email">
+                <p class="error-p"> <i class="fa-solid fa-triangle-exclamation"></i><span id="email-span">E mail İs Required vs.</span></p>
+                
+            </div>
+
+            <div>
+                <label id="password-label" for="password-input">Password </label>
+
+                <i id="openPassword" onclick="PasswordSeeCheck()" class="fa-sharp fa-solid fa-eye input-icon"></i>
+                <i id="closePassword" onclick="PasswordSeeCheck()"
+                    class="fa-sharp fa-solid fa-eye-slash input-icon"></i>
+                <br>
+
+                
+                <input class="input password-input" id="password-input" name="password-input" type="password">
+                
+                <p class="error-p"> <i class="fa-solid fa-triangle-exclamation"></i><span id="password-span">Password is required vs.</span></p>
+
+            </div>
+
+
+            <div>
+                <!-- CHANGE THE BUTTON TYPE TO SUBMİT FOR REAL APP ! -->
+                <button class="submit-btn" type="button">Sign In</button>
+            </div>
+            <div>
+                <a href="">Lorem ipsum ?</a>
+                <a href="">Forget Password ?</a>
+
+
+            </div>
+        </form>
+    </div>
+     
+
+
+    <script src="/js/app.js"></script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>
