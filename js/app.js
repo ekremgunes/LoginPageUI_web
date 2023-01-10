@@ -35,7 +35,7 @@ function validateForm() {
     let pwd = validatePassword()
     if (email && pwd) {
 
-        alert("Giriş Başarılı yönlendiriliyorsunuz . . ")
+        alert("Login Successfuly . . ")
 
     } else {
 
