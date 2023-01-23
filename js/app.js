@@ -35,7 +35,7 @@ function validateForm() {
     let pwd = validatePassword()
     if (email && pwd) {
 
-        alert("Login Successfuly . . ")
+        alert("Login Successfully . . .")
 
     } else {
 
